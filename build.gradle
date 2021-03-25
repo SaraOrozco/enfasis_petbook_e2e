@@ -3,7 +3,7 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
-group 'co.com.devco'
+group 'co.com.udem'
 version '1.0-SNAPSHOT'
 
 tasks.withType(JavaCompile) {

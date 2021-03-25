@@ -1,10 +1,10 @@
-package co.com.devco.tasks;
+package co.com.udem.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-import static co.com.devco.userinterfaces.MercadoLibreResultadosPage.PRIMER_RESULTADO;
+import static co.com.udem.userinterfaces.MercadoLibreResultadosPage.PRIMER_RESULTADO;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class SeleccionarDelResultado implements Task {

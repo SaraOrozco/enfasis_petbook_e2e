@@ -1,8 +1,8 @@
-package co.com.devco.questions;
+package co.com.udem.questions;
 
+import co.com.udem.userinterfaces.MercadoLibreDetalleDelProducto;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import static co.com.devco.userinterfaces.MercadoLibreDetalleDelProducto.DETALLE_PRODUCTO_RESULTADO;
 
 public class DescripcionDetalladaDel implements Question<Boolean> {
 
@@ -17,6 +17,6 @@ public class DescripcionDetalladaDel implements Question<Boolean> {
 
     @Override
     public Boolean answeredBy(Actor actor) {
-        return DETALLE_PRODUCTO_RESULTADO.resolveFor(actor).isVisible();
+        return MercadoLibreDetalleDelProducto.DETALLE_PRODUCTO_RESULTADO.resolveFor(actor).isVisible();
     }
 }
